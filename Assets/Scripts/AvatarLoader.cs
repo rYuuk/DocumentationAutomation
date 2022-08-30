@@ -1,7 +1,13 @@
+using System;
 using UnityEngine;
 
 public class AvatarLoader
 {
+    /// <summary>
+    /// Event called when avatar loaded.
+    /// </summary>
+    public event Action<GameObject> AvatarLoaded;
+    
     /// <summary>
     /// Url for downloading avatar
     /// </summary>
@@ -12,8 +18,19 @@ public class AvatarLoader
 
     /// <summary>
     /// Loads avatar.
+    /// <br/>Usage:
     /// </summary>
-    public void Load()
+    /// <param name="url">Link to avatar</param>
+    /// <example>
+    /// This shows how to Load an avatar.
+    /// <code>
+    /// var avatarLoader = new AvatarLoader();
+    /// avatarLoader.url="http://someurl.com";
+    /// avatarLoader.AvatarLoaded += avatar => {};  
+    /// avatarLoader.Load(url);
+    /// </code>
+    /// </example>
+    public void Load(string url)
     {
     }
 
