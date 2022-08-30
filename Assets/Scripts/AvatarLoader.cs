@@ -18,7 +18,6 @@ public class AvatarLoader
 
     /// <summary>
     /// Loads avatar.
-    /// <br/>Usage:
     /// </summary>
     /// <param name="url">Link to avatar</param>
     /// <example>
@@ -26,7 +25,7 @@ public class AvatarLoader
     /// <code>
     /// var avatarLoader = new AvatarLoader();
     /// avatarLoader.url="http://someurl.com";
-    /// avatarLoader.AvatarLoaded += avatar => {};  
+    /// avatarLoader.AvatarLoaded += avatar => {};
     /// avatarLoader.Load(url);
     /// </code>
     /// </example>
