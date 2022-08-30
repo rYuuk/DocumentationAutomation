@@ -87,31 +87,35 @@ $(document).ready(function(){initNavTree('_avatar_loader_8cs_source.html',''); i
   <div class="headertitle"><div class="title">AvatarLoader.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_avatar_loader_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>UnityEngine;</div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="class_avatar_loader.html">    3</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_avatar_loader.html">AvatarLoader</a></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_avatar_loader.html#a05dad520e037ff8557e70d2ce663e760">    8</a></span>    <span class="keyword">public</span> <span class="keywordtype">string</span> <a class="code hl_variable" href="class_avatar_loader.html#a05dad520e037ff8557e70d2ce663e760">Url</a>;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="comment">// Loading time.</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">private</span> <span class="keywordtype">float</span> loadTime;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_avatar_loader.html#a521f406268c941cc304ac04469e05cb7">   16</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_avatar_loader.html#a521f406268c941cc304ac04469e05cb7">Load</a>()</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    {</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    }</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_avatar_loader.html#a0c37d13c5f1aef5571b31a44c44802af">   23</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_avatar_loader.html#a0c37d13c5f1aef5571b31a44c44802af">Unload</a>()</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    }</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">private</span> <span class="keywordtype">void</span> DoSomethingWhileLoading()</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>}</div>
-<div class="ttc" id="aclass_avatar_loader_html"><div class="ttname"><a href="class_avatar_loader.html">AvatarLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="_avatar_loader_8cs_source.html#l00003">AvatarLoader.cs:4</a></div></div>
-<div class="ttc" id="aclass_avatar_loader_html_a05dad520e037ff8557e70d2ce663e760"><div class="ttname"><a href="class_avatar_loader.html#a05dad520e037ff8557e70d2ce663e760">AvatarLoader.Url</a></div><div class="ttdeci">string Url</div><div class="ttdoc">Url for downloading avatar</div><div class="ttdef"><b>Definition:</b> <a href="_avatar_loader_8cs_source.html#l00008">AvatarLoader.cs:8</a></div></div>
-<div class="ttc" id="aclass_avatar_loader_html_a0c37d13c5f1aef5571b31a44c44802af"><div class="ttname"><a href="class_avatar_loader.html#a0c37d13c5f1aef5571b31a44c44802af">AvatarLoader.Unload</a></div><div class="ttdeci">void Unload()</div><div class="ttdoc">Unloads avatar.</div><div class="ttdef"><b>Definition:</b> <a href="_avatar_loader_8cs_source.html#l00023">AvatarLoader.cs:23</a></div></div>
-<div class="ttc" id="aclass_avatar_loader_html_a521f406268c941cc304ac04469e05cb7"><div class="ttname"><a href="class_avatar_loader.html#a521f406268c941cc304ac04469e05cb7">AvatarLoader.Load</a></div><div class="ttdeci">void Load()</div><div class="ttdoc">Loads avatar.</div><div class="ttdef"><b>Definition:</b> <a href="_avatar_loader_8cs_source.html#l00016">AvatarLoader.cs:16</a></div></div>
+<a href="_avatar_loader_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>UnityEngine;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="class_avatar_loader.html">    4</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_avatar_loader.html">AvatarLoader</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_avatar_loader.html#a206bde93cd8cf6eedb74acb4bf902ae8">    9</a></span>    <span class="keyword">public</span> <span class="keyword">event</span> Action&lt;GameObject&gt; <a class="code hl_event" href="class_avatar_loader.html#a206bde93cd8cf6eedb74acb4bf902ae8">AvatarLoaded</a>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_avatar_loader.html#a05dad520e037ff8557e70d2ce663e760">   14</a></span>    <span class="keyword">public</span> <span class="keywordtype">string</span> <a class="code hl_variable" href="class_avatar_loader.html#a05dad520e037ff8557e70d2ce663e760">Url</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="comment">// Loading time.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">private</span> <span class="keywordtype">float</span> loadTime;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_avatar_loader.html#a80a53f816c3efda3760fce31efa722ba">   33</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_avatar_loader.html#a80a53f816c3efda3760fce31efa722ba">Load</a>(<span class="keywordtype">string</span> url)</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_avatar_loader.html#a0c37d13c5f1aef5571b31a44c44802af">   40</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_avatar_loader.html#a0c37d13c5f1aef5571b31a44c44802af">Unload</a>()</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">private</span> <span class="keywordtype">void</span> DoSomethingWhileLoading()</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
+<div class="ttc" id="aclass_avatar_loader_html"><div class="ttname"><a href="class_avatar_loader.html">AvatarLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="_avatar_loader_8cs_source.html#l00004">AvatarLoader.cs:5</a></div></div>
+<div class="ttc" id="aclass_avatar_loader_html_a05dad520e037ff8557e70d2ce663e760"><div class="ttname"><a href="class_avatar_loader.html#a05dad520e037ff8557e70d2ce663e760">AvatarLoader.Url</a></div><div class="ttdeci">string Url</div><div class="ttdoc">Url for downloading avatar</div><div class="ttdef"><b>Definition:</b> <a href="_avatar_loader_8cs_source.html#l00014">AvatarLoader.cs:14</a></div></div>
+<div class="ttc" id="aclass_avatar_loader_html_a0c37d13c5f1aef5571b31a44c44802af"><div class="ttname"><a href="class_avatar_loader.html#a0c37d13c5f1aef5571b31a44c44802af">AvatarLoader.Unload</a></div><div class="ttdeci">void Unload()</div><div class="ttdoc">Unloads avatar.</div><div class="ttdef"><b>Definition:</b> <a href="_avatar_loader_8cs_source.html#l00040">AvatarLoader.cs:40</a></div></div>
+<div class="ttc" id="aclass_avatar_loader_html_a206bde93cd8cf6eedb74acb4bf902ae8"><div class="ttname"><a href="class_avatar_loader.html#a206bde93cd8cf6eedb74acb4bf902ae8">AvatarLoader.AvatarLoaded</a></div><div class="ttdeci">Action&lt; GameObject &gt; AvatarLoaded</div><div class="ttdoc">Event called when avatar loaded.</div><div class="ttdef"><b>Definition:</b> <a href="_avatar_loader_8cs_source.html#l00009">AvatarLoader.cs:9</a></div></div>
+<div class="ttc" id="aclass_avatar_loader_html_a80a53f816c3efda3760fce31efa722ba"><div class="ttname"><a href="class_avatar_loader.html#a80a53f816c3efda3760fce31efa722ba">AvatarLoader.Load</a></div><div class="ttdeci">void Load(string url)</div><div class="ttdoc">Loads avatar.  Usage:</div><div class="ttdef"><b>Definition:</b> <a href="_avatar_loader_8cs_source.html#l00033">AvatarLoader.cs:33</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
