@@ -1,5 +1,19 @@
 var NAVTREEINDEX0 =
 {
+"_avatar_loader_8cs.html":[1,0,0,0,0],
+"_avatar_loader_8cs_source.html":[1,0,0,0,0],
+"annotated.html":[0,0],
+"class_avatar_loader.html":[0,0,0],
+"class_avatar_loader.html#a05dad520e037ff8557e70d2ce663e760":[0,0,0,2],
+"class_avatar_loader.html#a0c37d13c5f1aef5571b31a44c44802af":[0,0,0,1],
+"class_avatar_loader.html#a521f406268c941cc304ac04469e05cb7":[0,0,0,0],
+"classes.html":[0,1],
+"dir_84bbf7b3c7f28a5a18725745e1505219.html":[1,0,0],
+"dir_f13b41af88cf68434578284aaf699e39.html":[1,0,0,0],
+"files.html":[1,0],
+"functions.html":[0,2,0],
+"functions_func.html":[0,2,1],
+"functions_vars.html":[0,2,2],
 "index.html":[],
 "pages.html":[]
 };
